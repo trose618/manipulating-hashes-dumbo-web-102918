@@ -8,11 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-food_array = []
-  groceries.each do |key, val|
-    food_array << val
-  end
-  
-  food_array.flatten
+  grocery_types = groceries.values.flatten
+    
 
 end
